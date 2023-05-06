@@ -22,7 +22,7 @@ namespace Snake
             Y = y;
         }
 
-        public void FrameCoordinate(string draw, int x = 0, int y = 0)
+        public void FrameCoordinate(string draw, int x = 7, int y = 0)
         {
             Console.SetCursorPosition(x, y);
             Console.WriteLine(draw);
