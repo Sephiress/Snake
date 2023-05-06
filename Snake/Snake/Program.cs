@@ -7,6 +7,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
+            Console.SetWindowSize(133, 27);
             Console.Title = "Snake";
             Console.CursorVisible = false;
             Menu:
